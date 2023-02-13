@@ -7,7 +7,7 @@ class Puzzle:
 
     def possible_grids(self):
         grids = []
-        for i in range(1, self.pieces_advertised):
+        for i in range(self.pieces_advertised, self.pieces_advertised + int((self.pieces_advertised/10))):
             factors = get_factors(i)
 
             for i2 in factors:  # messy
