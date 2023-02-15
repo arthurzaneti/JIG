@@ -23,7 +23,7 @@ try:
         print("JIG cannot find a way to make this ratio fit within this number of pieces."
               "That is, a piece ratio of less than 1.2 and less than 10% more pieces than the original puzzle")
     else:
-        print("With a {} piece puzzle, JIG thinks it is likely that it actually has {} pieces. \n"
+        print("With a {} piece puzzle, JIG thinks it would be better for it to have {} pieces. \n"
               "This is the result of a grid {} by {}, \n"
               "which results in piece ratios of {} and a final score of {}".format(puzzle.pieces_advertised,
                                                                                    puzzle.best_grid[2],
